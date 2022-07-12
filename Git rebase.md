@@ -1,6 +1,4 @@
-
-
-
+# rebase前
 
 ```mermaid
 flowchart LR
@@ -14,8 +12,19 @@ flowchart LR
 	end
 ```
 
+# rebase后
 
 
 
+```mermaid
+flowchart LR
+    direction LR
+    subgraph master
+    初始化 --> master节点1 --> master节点2
+    end
+    direction LR
+    subgraph 原来的feature
+    master节点2 --> feature节点1 --> feature节点2
+    end
+```
 
-&nbsp;
