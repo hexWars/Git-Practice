@@ -12,7 +12,5 @@ flowchart LR
 	subgraph feature
 		master节点1 --> feature节点1 --> feature节点2
 	end
-	
-	
 ```
 
